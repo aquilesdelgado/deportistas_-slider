@@ -440,7 +440,7 @@ let athletes = {
             "id_sport": "deporte001",
             "sport": "Gimnasia Ritmica",
             "small_photo": "../../assets/img/ana_gayan.jpg",
-            "large_photo": "https://..../foto_gran001.png",
+            "large_photo": "https://www.proyectofer.es/wp-content/uploads/2019/05/Proyecto-FER-AnaGayan_1140x664.jpg",
             "entry": "bla bla bla bla",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
@@ -456,7 +456,7 @@ let athletes = {
             "id_sport": "deporte002",
             "sport": "Ciclismo",
             "small_photo": "../../assets/img/Alejandro_martinez.jpg",
-            "large_photo": "https://..../foto_gran002.png",
+            "large_photo": "https://static1.lasprovincias.es/www/multimedia/201712/15/media/cortadas/119602115--624x414.jpg",
             "entry": "bla bla bla bla",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
@@ -464,7 +464,7 @@ let athletes = {
             ]
         },
         {
-            "id_athlete": "deportista001",
+            "id_athlete": "deportista003",
             "name": "Ruth",
             "surnames": "Beitia",
             "id_federation": "federacion001",
@@ -472,7 +472,7 @@ let athletes = {
             "id_sport": "deporte001",
             "sport": "Salto de Altura",
             "small_photo": "../../assets/img/Ruth_beitia.jpg",
-            "large_photo": "https://..../foto_gran001.png",
+            "large_photo": "http://img2.rtve.es/v/3656009?w=1600&preview=1467922653039.jpg",
             "entry": "bla bla bla bla",
             "Categories": [
                 { "id": "idcategoria1", "name": "Rio 2016" },
@@ -480,7 +480,7 @@ let athletes = {
             ]
         },
         {
-            "id_athlete": "deportista001",
+            "id_athlete": "deportista004",
             "name": "Nestor",
             "surnames": "Abbad",
             "id_federation": "federacion001",
@@ -488,7 +488,7 @@ let athletes = {
             "id_sport": "deporte001",
             "sport": "Gimnasia",
             "small_photo": "../../assets/img/nestor_alcoyano.jpg",
-            "large_photo": "https://..../foto_gran001.png",
+            "large_photo": "https://www.mundodeportivo.com/r/GODO/MD/p5/Polideportivo/Imagenes/2018/08/11/Recortada/1015034010_20180811171406461-kUnE-U451294668621OrE-980x554@MundoDeportivo-Web.jpg",
             "entry": "bla bla bla bla",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
@@ -496,7 +496,7 @@ let athletes = {
             ]
         },
         {
-            "id_athlete": "deportista001",
+            "id_athlete": "deportista005",
             "name": "Miguel",
             "surnames": "Alvariño",
             "id_federation": "federacion001",
@@ -504,7 +504,7 @@ let athletes = {
             "id_sport": "deporte001",
             "sport": "Tiro con Arco",
             "small_photo": "../../assets/img/miguel.jpg",
-            "large_photo": "https://..../foto_gran001.png",
+            "large_photo": "https://i.ytimg.com/vi/YwmhWAihRN4/maxresdefault.jpg",
             "entry": "bla bla bla bla",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
@@ -512,7 +512,7 @@ let athletes = {
             ]
         },
         {
-            "id_athlete": "deportista001",
+            "id_athlete": "deportista006",
             "name": "Fatima",
             "surnames": "Diame",
             "id_federation": "federacion001",
@@ -520,7 +520,7 @@ let athletes = {
             "id_sport": "deporte001",
             "sport": "Salto de Longitud,Salto Triple",
             "small_photo": "../../assets/img/fatima_diame.jpg",
-            "large_photo": "https://..../foto_gran001.png",
+            "large_photo": "https://i.eurosport.com/2019/03/02/2535021-52599135-2560-1440.jpg?w=1050",
             "entry": "bla bla bla bla",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
@@ -601,7 +601,7 @@ obj.map( function (athletesItem, i) {
         infoDivAthletes.setAttribute("class","infoDivAthletes")
 
         let infoAthletes = document.createElement('p');
-        let titleAthletes = document.createElement('h2');
+        let titleAthletes = document.createElement('h3');
         let dateAthletes = document.createElement("p");
         dateAthletes.innerHTML= "";
         dateAthletes.setAttribute("class","dateAthletes");
@@ -975,18 +975,89 @@ mapAthletes(athletes.data);
 mapAthletesVersion2= (obj)=>{
     obj.map((athleteItem,i)=>{
         let sportPlayer= document.createElement("div");
-        sportPlayer.style.csstext= "height: 90px; display: flex;"
+        sportPlayer.setAttribute("class","div-deportista-detalle")
+        sportPlayer.setAttribute("id",athleteItem.id_athlete)
         let img= document.createElement("img");
         img.setAttribute("src",athleteItem.small_photo);
-        img.style.cssText = "height: 80%; border-width: 1px; border-radius: 50%";
+        img.style.cssText = "height: 60px; width: 60px; border-radius: 50%;";
 
         sportPlayer.appendChild(img);
-        document.querySelector("#search-div").appendChild(sportPlayer);
+
         console.log("finalizado deportista");
+
+        let divInfoSportPlayer= document.createElement("div");
+        let infoAthletes = document.createElement('p');
+        infoAthletes.style.cssText="font-size: 1.4rem; margin-left: 2rem;";
+        infoAthletes.innerHTML = athleteItem.sport;
+
+        divInfoSportPlayer.style.cssText= "display: grid; align-content: center;"
+
+        let titleAthletes = document.createElement('h3');
+        titleAthletes.style.cssText="font-size: 1.8rem; margin-left: 2rem;margin-bottom:0px;"
+        titleAthletes.innerHTML = athleteItem.name+" "+athleteItem.surnames;
+
+        let rssDiv= document.createElement("div");
+        rssDiv.setAttribute("class","")
+        rssDiv.style.cssText= "display:flex; align-self: flex-end; position: absolute; right: 3rem;"
+
+        let socialMediaIcon1 = document.createElement("i");
+        socialMediaIcon1.setAttribute("class","fab fa-instagram")
+        socialMediaIcon1.style.cssText= "margin-left: 0.5rem; font-size: 3rem;"
+        let socialMediaIcon2 = document.createElement("i");
+        socialMediaIcon2.setAttribute("class","fab fa-facebook-f")
+        socialMediaIcon2.style.cssText= "margin-left: 0.5rem; font-size: 3rem;"
+        let socialMediaIcon3 = document.createElement("i");
+        socialMediaIcon3.setAttribute("class","fab fa-twitter")
+        socialMediaIcon3.style.cssText= "margin-left: 0.5rem; font-size: 3rem;"
+
+        sportPlayer.addEventListener("mouseover", (e)=>{
+    
+            let divDetails= document.querySelector("#canvas-details img");   
+            let searchValue= e.target.id;
+            console.log(divDetails)
+            let athletesFiltered=[];
+            if(searchValue.length > 0){
+                athletes.data.map((list,i)=>{
+                        console.log(list.id_athlete)
+                    if(searchValue.id===list.id_athlete){
+                        divDetails.setAttribute("src",list.large_photo);
+                        
+                        console.log(list)
+                    }
+                    else{
+                        console.log("no hay coincidencias");
+                    }
+                })
+                
+            } else {
+               
+            }
+        
+        }
+        );
+
+        divInfoSportPlayer.appendChild(titleAthletes)
+        divInfoSportPlayer.appendChild(infoAthletes)
+        
+        rssDiv.appendChild(socialMediaIcon1);
+        rssDiv.appendChild(socialMediaIcon2);
+        rssDiv.appendChild(socialMediaIcon3);
+        
+        sportPlayer.appendChild(divInfoSportPlayer)
+        sportPlayer.appendChild(rssDiv);
+        document.querySelector("#search-div").appendChild(sportPlayer);
+       
+
     })
 }
 
 mapAthletesVersion2(athletes.data);
+
+
+// <--------- hover info trigger ------------>
+
+
+
 
 
 // <---------- slider-pro ---------->

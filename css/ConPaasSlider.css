@@ -36,7 +36,15 @@ website:   	http://www.themepunch.com
 }
 .buscador_deportistas_banner{
 	height: 90px;
-	border-bottom-width: ;
+}
+.div-deportista-detalle{
+	height: 90px; 
+	display: flex; 
+	border: 1px solid #3f3f3f !important; 
+	border-radius: 5px;
+	align-content: center;
+	padding: 1.5rem;
+	margin-top: 0.5rem;
 }
 .center-block-custom {
 	display: flex;
