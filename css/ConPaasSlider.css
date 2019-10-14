@@ -24,6 +24,7 @@ website:   	http://www.themepunch.com
 .div-deportistas-result-grande{
 	display: block;
 	height: 100vh;
+	overflow: hidden;
 }
 .deportista_div{
 	border: 1px solid #3f3f3f;
@@ -36,15 +37,104 @@ website:   	http://www.themepunch.com
 }
 .buscador_deportistas_banner{
 	height: 90px;
+	display: flex;
+}
+.buscador_deportistas_2{
+	font-family: 'Open Sans', sans-serif, 'FontAwesome' ;
+}
+
+.search-div::-webkit-scrollbar {
+    background-color: #a5a4a4;
+    border-radius: 40px;
+	border: 5px solid #f9fafa;
+	width:10px;
+	
+}
+.search-div::-webkit-scrollbar-thumb {
+    background-color: #797878;
+    border-radius: 40px;
+	border: 1px solid #a5a4a4;
+	width:1px;
+	height:20%;
+	
+}
+.search-div::-webkit-scrollbar-track {
+    background-color: #979797;
+    border-radius: 40px;
+	border: 4px solid #ffffff;
+	width:5px;
+	
+}
+.search-div::-webkit-scrollbar:vertical{
+	height: 10px;
 }
 .div-deportista-detalle{
+	list-style: none;
 	height: 90px; 
 	display: flex; 
-	border: 1px solid #3f3f3f !important; 
+	border: 1px solid #979797 !important; 
 	border-radius: 5px;
 	align-content: center;
+	justify-content: space-between;
 	padding: 1.5rem;
 	margin-top: 0.5rem;
+}
+.div-deportista-detalle:hover{
+	cursor:pointer;
+}
+.socialmedia-icon-deportistas{
+	margin-left: 0.5rem; 
+	font-size: 2rem; 
+	color: #333333
+}
+.socialmedia-icon-deportistas:hover{
+	margin-left: 0.5rem; 
+	font-size: 2rem; 
+	color: #0448db;
+	cursor: pointer;
+}
+.canvas-img-deportistas{
+	object-fit: cover; 
+	height: 100%; 
+	background: #ffffff; 
+	position: absolute; 
+	z-index: 1;
+	filter: blur(0px);
+	transition: .4s filter linear;
+
+}
+
+.blur-canvas-img-deportistas{
+	filter: blur(5px);
+}
+
+.inner-addon {
+	position: relative;
+  }
+  .inner-addon .glyphicon {
+	position: absolute;
+	padding: 52px;
+	pointer-events: none;
+	z-index: 5;
+  }
+  .left-addon .glyphicon {
+	left:-2.5rem;
+  }
+  .left-addon input {
+	padding-left: 30px;
+  }
+
+.enlaces-deportistas{
+	color: #3f3f3f;
+	text-decoration: none;
+}
+.enlaces-deportistas:hover{
+	color: #3f3f3f;
+	text-decoration: none;
+}
+.enlaces-deportistas:focus{
+	color: #3f3f3f;
+	text-decoration: none;
 }
 .center-block-custom {
 	display: flex;
@@ -33092,11 +33182,13 @@ template {
 }
 a {
   background-color: transparent;
-  color: #337ab7;
+  
 }
 a:active,
 a:hover {
   outline: 0;
+
+
 }
 b,
 optgroup,

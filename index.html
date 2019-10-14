@@ -19,11 +19,12 @@
     <link rel="stylesheet" type="text/css" href="./libs/fancybox/jquery.fancybox.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="css/examples.css" media="screen"/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet">
 
     <script type="text/javascript" src="./libs/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="./dist/js/jquery.sliderPro.min.js"></script>
     <script type="text/javascript" src="./libs/fancybox/jquery.fancybox.pack.js"></script>
-    <script src="https://kit.fontawesome.com/cc0db3c91f.js" crossorigin="anonymous"></script>
+  
    
 
 
@@ -350,13 +351,35 @@
                                 </div>
                             </div>
                         </section>
-                        <section id="slider-deportistas-version2" class="container">
+                        <section id="slider-deportistas-version2" class="container" style="margin-bottom: 5rem;">
                            <article class="row">
-                               <div id="search-div" class="col-xs-12 col-sm-5 bg-dark-jungle div-deportistas-result-small">
-                                    <div><input id="buscador_deportistas_2"type="search" placeholder="Nombre, Deporte" class="col-xs-12 buscador_deportistas_banner"></div>
+                                <div class="col-xs-12 col-sm-4 buscador_deportistas_banner inner-addon left-addon">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                    <input id="buscador_deportistas_2"type="text" placeholder="Nombre, Deporte" class="col-xs-12 input-search-deportistas form-control" 
+                                    style="height: 60%;width: 97%; align-self: flex-end; margin-bottom: 3px;">
+                      
+                                </div>
+                                <div class="col-xs-12"></div>    
+
+                               <div class="col-xs-12 col-sm-4 div-deportistas-result-small search-div">
+                                   
+                                    <ul id="search-div" >
+
+                                    </ul>
                                </div>
-                               <div id="canvas-details" class="col-sm-7 div-deportistas-result-grande bg-primary">
-                                    <img src="https://stillmed.olympic.org/media/Images/OlympicOrg/Countries/S/Spain/CNO-ESP.jpg?interpolation=lanczos-none&resize=253:*" alt="logoCoe" style="object-fit: cover; height: 100%;">
+                               <div id="canvas-details" class="col-sm-8 div-deportistas-result-grande bg-primary" style="padding-left: 0px;padding-right: 0px;">
+                                    <img src="https://stillmed.olympic.org/media/Images/OlympicOrg/Countries/S/Spain/CNO-ESP.jpg?interpolation=lanczos-none&resize=253:*" alt="logoCoe" class="canvas-img-deportistas">
+                                    <div id="overlay-img" style="background-color: #3f3f3f; height: 100%; width: 100%;position: absolute; z-index: 3; opacity: 0.4;"></div>
+                                    <div id="info-overlay" style="position: absolute; z-index: 6; width: 50%;height: 100%; display: flex; align-items: flex-end;">
+                                        <div id="div-info-overlay" style="padding-left: 8rem; padding-bottom: 10rem;">
+                                            <h3 id="overlay-name-surname" style="color:#ffffff;font-size: 4rem; font-family: 'Oswald', sans-serif; line-height: 5.7rem; "></h3>
+                                            <p id="overlay-content-info"style="font-family: 'Open Sans', sans-serif; font-size: 1.5rem; line-height: 2.1rem;"></p>
+                                            <button class="btn-primary" style="border-radius:15px; border: 0px; font-size: 3.5 rem; line-height: 4rem; padding-left: 3rem;padding-right: 3rem;">
+                                                Leer mas   <i class="fa fa-chevron-right"></i></button>
+                                        </div>
+                                    </div>
+
+                                    
                                </div>
 
                            </article>
