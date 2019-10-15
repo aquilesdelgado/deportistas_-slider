@@ -68,18 +68,22 @@ var slidedata = [{
         "medialibrary_title": "María Vicente pulveriza <br>el récord de España",
         "medialibrary_entry": "La atleta española culmina su triunfo en los 800 metros <br>y logra el récord de España absoluto de heptatlón superando por primera vez <br>los 6.000 puntos en el Europeo de Atletismo Sub 20",
         "rrss": [{
+                 "id": "rrss1",
                 "type": "instagram",
                 "url": "https://www.instagram.com/rafaelnadal/"
             },
             {
+                "id": "rrss2",
                 "type": "facebook",
                 "url": "https://www.facebook.com/Nadal/"
             },
             {
+                "id": "rrss3",
                 "type": "twitter",
                 "url": "https://twitter.com/RafaelNadal"
             },
             {
+                "id": "rrss4",
                 "type": "youtube",
                 "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
             },
@@ -94,18 +98,22 @@ var slidedata = [{
         "medialibrary_title": "España, campeona por países <br>en el mundial de vela juvenil",
         "medialibrary_entry": "Neus Ballester y Andrea Perelló, en 420, y Ana Moncada, en Laser Radial, <br>han ganado la medalla de plata en sus respectivas categorías</div>",
         "rrss": [{
+                 "id": "rrss1",
                 "type": "instagram",
                 "url": "https://www.instagram.com/rafaelnadal/"
             },
             {
+                "id": "rrss2",
                 "type": "facebook",
                 "url": "https://www.facebook.com/Nadal/"
             },
             {
+                "id": "rrss3",
                 "type": "twitter",
                 "url": "https://twitter.com/RafaelNadal"
             },
             {
+                "id": "rrss4",
                 "type": "youtube",
                 "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
             },
@@ -121,18 +129,22 @@ var slidedata = [{
         "medialibrary_title": "Comité Olímpico Español",
         "medialibrary_entry": "El Comité Olímpico Español es una asociación privada, que se rige por sus <br>propios estatutos y reglamentos, de acuerdo con los principios y normas del Comité Olímpico Internacional, <br>que es la entidad de tutela y control de sus actividades.",
         "rrss": [{
+                 "id": "rrss1",
                 "type": "instagram",
                 "url": "https://www.instagram.com/rafaelnadal/"
             },
             {
+                "id": "rrss2",
                 "type": "facebook",
                 "url": "https://www.facebook.com/Nadal/"
             },
             {
+                "id": "rrss3",
                 "type": "twitter",
                 "url": "https://twitter.com/RafaelNadal"
             },
             {
+                "id": "rrss4",
                 "type": "youtube",
                 "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
             },
@@ -147,18 +159,22 @@ var slidedata = [{
         "medialibrary_title": "Historia de Lydia Valentín <br>Persigue tu Sueño, Supera los Obstáculos",
         "medialibrary_entry": '"Cuando llegó mi momento, supe que era mi oportunidad<br>para demostrar lo que era capaz de hacer"<br>',
         "rrss": [{
+                 "id": "rrss1",
                 "type": "instagram",
                 "url": "https://www.instagram.com/rafaelnadal/"
             },
             {
+                "id": "rrss2",
                 "type": "facebook",
                 "url": "https://www.facebook.com/Nadal/"
             },
             {
+                "id": "rrss3",
                 "type": "twitter",
                 "url": "https://twitter.com/RafaelNadal"
             },
             {
+                "id": "rrss4",
                 "type": "youtube",
                 "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
             },
@@ -173,18 +189,22 @@ var slidedata = [{
         "medialibrary_title": "Camino a Tokio 2020",
         "medialibrary_entry": "Los Juegos Olímpicos de Tokio 2020, <br>oficialmente conocidos como los Juegos de la XXXII Olimpiada, <br>tendrán lugar entre el 24 de julio al 9 de agosto de 2020 en Tokio, Japón",
         "rrss": [{
+                 "id": "rrss1",
                 "type": "instagram",
                 "url": "https://www.instagram.com/rafaelnadal/"
             },
             {
+                "id": "rrss2",
                 "type": "facebook",
                 "url": "https://www.facebook.com/Nadal/"
             },
             {
+                "id": "rrss3",
                 "type": "twitter",
                 "url": "https://twitter.com/RafaelNadal"
             },
             {
+                "id": "rrss4",
                 "type": "youtube",
                 "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
             },
@@ -439,18 +459,37 @@ let athletes = {
             "federation": "Real Federación Española de Gimnasia",
             "id_sport": "deporte001",
             "sport": "Gimnasia Ritmica",
-            "small_photo": "../../assets/img/ana_gayan.jpg",
+            "small_photo": "assets/img/ana_gayan.jpg",
             "large_photo": "https://www.proyectofer.es/wp-content/uploads/2019/05/Proyecto-FER-AnaGayan_1140x664.jpg",
             "entry": "Es una gimnasta rítmica española, componente de la selección nacional de gimnasia rítmica de España en modalidad de conjuntos, de la que es capitana.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "tenis" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista002",
@@ -460,18 +499,37 @@ let athletes = {
             "Federation": "Real Federación Española de Ciclismo",
             "id_sport": "deporte002",
             "sport": "Ciclismo",
-            "small_photo": "../../assets/img/Alejandro_martinez.jpg",
+            "small_photo": "assets/img/Alejandro_martinez.jpg",
             "large_photo": "https://static1.lasprovincias.es/www/multimedia/201712/15/media/cortadas/119602115--624x414.jpg",
             "entry": "blblkjblkjblkjblkb lblkjblkjb blkjblkblkjbljklj kjblkblkjblkjblkjbkj lkjblcbsabaslkcbjalkjbc kbclakjbalckjblakdblkdajbkjcabd",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "natación" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista003",
@@ -481,18 +539,37 @@ let athletes = {
             "federation": "Real Federacion Española de Atletismo",
             "id_sport": "deporte001",
             "sport": "Salto de Altura",
-            "small_photo": "../../assets/img/Ruth_beitia.jpg",
+            "small_photo": "assets/img/Ruth_beitia.jpg",
             "large_photo": "http://img2.rtve.es/v/3656009?w=1600&preview=1467922653039.jpg",
             "entry": "Es una deportista española que compitió en atletismo en la especialidad de salto de altura.​ Es la única atleta española con dos medallas olímpicas, y la primera que obtuvo un oro olímpico.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Rio 2016" },
                 { "id": "idcategoria2", "name": "Salto de Altura" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista004",
@@ -502,18 +579,37 @@ let athletes = {
             "federation": "Real Federación Española de Gimnasia",
             "id_sport": "deporte001",
             "sport": "Gimnasia",
-            "small_photo": "../../assets/img/nestor_alcoyano.jpg",
+            "small_photo": "assets/img/nestor_alcoyano.jpg",
             "large_photo": "https://www.mundodeportivo.com/r/GODO/MD/p5/Polideportivo/Imagenes/2018/08/11/Recortada/1015034010_20180811171406461-kUnE-U451294668621OrE-980x554@MundoDeportivo-Web.jpg",
             "entry": "Es un gimnasta artístico masculino español y parte del equipo nacional. Participó en todas las ediciones de los campeonatos del mundo desde su debut en 2013, y se clasificó para los Juegos Olímpicos de 2016.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "Gimnasia" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista005",
@@ -523,18 +619,37 @@ let athletes = {
             "federation": "Real Federación Española de Atletismo",
             "id_sport": "deporte001",
             "sport": "Tiro con Arco",
-            "small_photo": "../../assets/img/miguel.jpg",
-            "large_photo": "https://i.ytimg.com/vi/YwmhWAihRN4/maxresdefault.jpg",
+            "small_photo": "assets/img/miguel.jpg",
+            "large_photo": "https://e00-marca.uecdn.es/imagenes/2015/10/27/mas_deportes/otros_deportes/1445961089_extras_noticia_foton_7_2.jpg",
             "entry": "Es un atleta de España que compite en tiro con arco recurvo. Él se destacó como el ganador de la competencia de tiro con arco individual masculino en los Juegos Europeos inaugurales. En el mismo evento, formó parte del equipo español que ganó una medalla de plata en la competencia por equipos.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "Tiro con Arco" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista006",
@@ -544,18 +659,37 @@ let athletes = {
             "federation": "Real Federación Española de Atletismo",
             "id_sport": "deporte001",
             "sport": "Salto de Longitud,Salto Triple",
-            "small_photo": "../../assets/img/fatima_diame.jpg",
+            "small_photo": "assets/img/fatima_diame.jpg",
             "large_photo": "https://i.eurosport.com/2019/03/02/2535021-52599135-2560-1440.jpg?w=1050",
             "entry": "Es una atleta española especializada en salto de longitud y triple salto. Ganó una medalla de bronce en la categoría de salto de longitud en el Campeonato Europeo Juvenil de Atletismo en 2015. En 2018 obtuvo dos medallas de bronce en los Juegos Mediterráneos de 2018 celebrados en Tarragona, en las categorías de triple salto y salto de longitud.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "Atletismo" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista007",
@@ -565,18 +699,37 @@ let athletes = {
             "federation": "Real Federación Española de Gimnasia",
             "id_sport": "deporte001",
             "sport": "Gimnasia Ritmica",
-            "small_photo": "../../assets/img/ana_gayan.jpg",
+            "small_photo": "assets/img/ana_gayan.jpg",
             "large_photo": "https://www.proyectofer.es/wp-content/uploads/2019/05/Proyecto-FER-AnaGayan_1140x664.jpg",
             "entry": "Es una gimnasta rítmica española, componente de la selección nacional de gimnasia rítmica de España en modalidad de conjuntos, de la que es capitana.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "tenis" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista008",
@@ -586,18 +739,37 @@ let athletes = {
             "Federation": "Real Federación Española de Ciclismo",
             "id_sport": "deporte002",
             "sport": "Ciclismo",
-            "small_photo": "../../assets/img/Alejandro_martinez.jpg",
+            "small_photo": "assets/img/Alejandro_martinez.jpg",
             "large_photo": "https://static1.lasprovincias.es/www/multimedia/201712/15/media/cortadas/119602115--624x414.jpg",
             "entry": "blblkjblkjblkjblkb lblkjblkjb blkjblkblkjbljklj kjblkblkjblkjblkjbkj lkjblcbsabaslkcbjalkjbc kbclakjbalckjblakdblkdajbkjcabd",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "natación" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista009",
@@ -607,18 +779,37 @@ let athletes = {
             "federation": "Real Federacion Española de Atletismo",
             "id_sport": "deporte001",
             "sport": "Salto de Altura",
-            "small_photo": "../../assets/img/Ruth_beitia.jpg",
+            "small_photo": "assets/img/Ruth_beitia.jpg",
             "large_photo": "http://img2.rtve.es/v/3656009?w=1600&preview=1467922653039.jpg",
             "entry": "Es una deportista española que compitió en atletismo en la especialidad de salto de altura.​ Es la única atleta española con dos medallas olímpicas, y la primera que obtuvo un oro olímpico.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Rio 2016" },
                 { "id": "idcategoria2", "name": "Salto de Altura" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista010",
@@ -628,18 +819,37 @@ let athletes = {
             "federation": "Real Federación Española de Gimnasia",
             "id_sport": "deporte001",
             "sport": "Gimnasia",
-            "small_photo": "../../assets/img/nestor_alcoyano.jpg",
+            "small_photo": "assets/img/nestor_alcoyano.jpg",
             "large_photo": "https://www.mundodeportivo.com/r/GODO/MD/p5/Polideportivo/Imagenes/2018/08/11/Recortada/1015034010_20180811171406461-kUnE-U451294668621OrE-980x554@MundoDeportivo-Web.jpg",
             "entry": "Es un gimnasta artístico masculino español y parte del equipo nacional. Participó en todas las ediciones de los campeonatos del mundo desde su debut en 2013, y se clasificó para los Juegos Olímpicos de 2016.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "Gimnasia" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista011",
@@ -649,18 +859,37 @@ let athletes = {
             "federation": "Real Federación Española de Atletismo",
             "id_sport": "deporte001",
             "sport": "Tiro con Arco",
-            "small_photo": "../../assets/img/miguel.jpg",
-            "large_photo": "https://i.ytimg.com/vi/YwmhWAihRN4/maxresdefault.jpg",
+            "small_photo": "assets/img/miguel.jpg",
+            "large_photo": "https://e00-marca.uecdn.es/imagenes/2015/10/27/mas_deportes/otros_deportes/1445961089_extras_noticia_foton_7_2.jpg",
             "entry": "Es un atleta de España que compite en tiro con arco recurvo. Él se destacó como el ganador de la competencia de tiro con arco individual masculino en los Juegos Europeos inaugurales. En el mismo evento, formó parte del equipo español que ganó una medalla de plata en la competencia por equipos.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "Tiro con Arco" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista012",
@@ -670,18 +899,37 @@ let athletes = {
             "federation": "Real Federación Española de Atletismo",
             "id_sport": "deporte001",
             "sport": "Salto de Longitud,Salto Triple",
-            "small_photo": "../../assets/img/fatima_diame.jpg",
+            "small_photo": "assets/img/fatima_diame.jpg",
             "large_photo": "https://i.eurosport.com/2019/03/02/2535021-52599135-2560-1440.jpg?w=1050",
             "entry": "Es una atleta española especializada en salto de longitud y triple salto. Ganó una medalla de bronce en la categoría de salto de longitud en el Campeonato Europeo Juvenil de Atletismo en 2015. En 2018 obtuvo dos medallas de bronce en los Juegos Mediterráneos de 2018 celebrados en Tarragona, en las categorías de triple salto y salto de longitud.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "Atletismo" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista013",
@@ -691,18 +939,37 @@ let athletes = {
             "federation": "Real Federación Española de Gimnasia",
             "id_sport": "deporte001",
             "sport": "Gimnasia Ritmica",
-            "small_photo": "../../assets/img/ana_gayan.jpg",
+            "small_photo": "assets/img/ana_gayan.jpg",
             "large_photo": "https://www.proyectofer.es/wp-content/uploads/2019/05/Proyecto-FER-AnaGayan_1140x664.jpg",
             "entry": "Es una gimnasta rítmica española, componente de la selección nacional de gimnasia rítmica de España en modalidad de conjuntos, de la que es capitana.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "tenis" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista014",
@@ -712,18 +979,37 @@ let athletes = {
             "Federation": "Real Federación Española de Ciclismo",
             "id_sport": "deporte002",
             "sport": "Ciclismo",
-            "small_photo": "../../assets/img/Alejandro_martinez.jpg",
+            "small_photo": "assets/img/Alejandro_martinez.jpg",
             "large_photo": "https://static1.lasprovincias.es/www/multimedia/201712/15/media/cortadas/119602115--624x414.jpg",
             "entry": "blblkjblkjblkjblkb lblkjblkjb blkjblkblkjbljklj kjblkblkjblkjblkjbkj lkjblcbsabaslkcbjalkjbc kbclakjbalckjblakdblkdajbkjcabd",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "natación" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista015",
@@ -733,18 +1019,37 @@ let athletes = {
             "federation": "Real Federacion Española de Atletismo",
             "id_sport": "deporte001",
             "sport": "Salto de Altura",
-            "small_photo": "../../assets/img/Ruth_beitia.jpg",
+            "small_photo": "assets/img/Ruth_beitia.jpg",
             "large_photo": "http://img2.rtve.es/v/3656009?w=1600&preview=1467922653039.jpg",
             "entry": "Es una deportista española que compitió en atletismo en la especialidad de salto de altura.​ Es la única atleta española con dos medallas olímpicas, y la primera que obtuvo un oro olímpico.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Rio 2016" },
                 { "id": "idcategoria2", "name": "Salto de Altura" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista016",
@@ -754,18 +1059,37 @@ let athletes = {
             "federation": "Real Federación Española de Gimnasia",
             "id_sport": "deporte001",
             "sport": "Gimnasia",
-            "small_photo": "../../assets/img/nestor_alcoyano.jpg",
+            "small_photo": "assets/img/nestor_alcoyano.jpg",
             "large_photo": "https://www.mundodeportivo.com/r/GODO/MD/p5/Polideportivo/Imagenes/2018/08/11/Recortada/1015034010_20180811171406461-kUnE-U451294668621OrE-980x554@MundoDeportivo-Web.jpg",
             "entry": "Es un gimnasta artístico masculino español y parte del equipo nacional. Participó en todas las ediciones de los campeonatos del mundo desde su debut en 2013, y se clasificó para los Juegos Olímpicos de 2016.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "Gimnasia" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista017",
@@ -775,18 +1099,37 @@ let athletes = {
             "federation": "Real Federación Española de Atletismo",
             "id_sport": "deporte001",
             "sport": "Tiro con Arco",
-            "small_photo": "../../assets/img/miguel.jpg",
-            "large_photo": "https://i.ytimg.com/vi/YwmhWAihRN4/maxresdefault.jpg",
+            "small_photo": "assets/img/miguel.jpg",
+            "large_photo": "https://e00-marca.uecdn.es/imagenes/2015/10/27/mas_deportes/otros_deportes/1445961089_extras_noticia_foton_7_2.jpg",
             "entry": "Es un atleta de España que compite en tiro con arco recurvo. Él se destacó como el ganador de la competencia de tiro con arco individual masculino en los Juegos Europeos inaugurales. En el mismo evento, formó parte del equipo español que ganó una medalla de plata en la competencia por equipos.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "Tiro con Arco" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         },
         {
             "id_athlete": "deportista018",
@@ -796,18 +1139,37 @@ let athletes = {
             "federation": "Real Federación Española de Atletismo",
             "id_sport": "deporte001",
             "sport": "Salto de Longitud,Salto Triple",
-            "small_photo": "../../assets/img/fatima_diame.jpg",
+            "small_photo": "assets/img/fatima_diame.jpg",
             "large_photo": "https://i.eurosport.com/2019/03/02/2535021-52599135-2560-1440.jpg?w=1050",
             "entry": "Es una atleta española especializada en salto de longitud y triple salto. Ganó una medalla de bronce en la categoría de salto de longitud en el Campeonato Europeo Juvenil de Atletismo en 2015. En 2018 obtuvo dos medallas de bronce en los Juegos Mediterráneos de 2018 celebrados en Tarragona, en las categorías de triple salto y salto de longitud.",
             "Categories": [
                 { "id": "idcategoria1", "name": "Londres 2012" },
                 { "id": "idcategoria2", "name": "Atletismo" }
             ],
-            "social_media":{
-                "facebook": "https://www.facebook.com",
-                "twitter": "https://www.twitter.com",
-                "instagram": "https://www.instagram.com"
-            }
+             "rrss": [{
+                 "id": "rrss1",
+                "type": "instagram",
+                "url": "https://www.instagram.com/rafaelnadal/"
+            },
+            {
+                "id": "rrss2",
+                "type": "facebook",
+                "url": "https://www.facebook.com/Nadal/"
+            },
+            {
+                "id": "rrss3",
+                "type": "twitter",
+                "url": "https://twitter.com/RafaelNadal"
+            },
+            {
+                "id": "rrss4",
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCWn3uB0qhXSfcYlUWUYuSQg"
+            },
+            
+
+
+        ]
         }
     ]
 
@@ -1079,14 +1441,14 @@ let revapi91,
                     left: {
                       h_align: "left",
                       v_align: "center",
-                      h_offset: -10,
+                      h_offset: -50,
                       v_offset: 0,
                       container: "slider"
                     },
                     right: {
                       h_align: "right",
                       v_align: "center",
-                      h_offset: -10,
+                      h_offset: -40,
                       v_offset: 0,
                       container: "slider"
                     }
@@ -1262,9 +1624,10 @@ mapAthletesVersion2= (obj)=>{
         let divImgInfo= document.createElement("div");
         divImgInfo.style.cssText= "display: flex;"
         let divImg= document.createElement("div");
+        divImg.style.cssText= "display: flex; align-items: center;"
         let img= document.createElement("img");
         img.setAttribute("src",athleteItem.small_photo);
-        img.style.cssText = "height: 60px; width: 60px; border-radius: 50%;";
+        img.classList.add("img-small-athletes-2");
         
 
         divImg.appendChild(img);
@@ -1274,13 +1637,13 @@ mapAthletesVersion2= (obj)=>{
 
         let divInfoSportPlayer= document.createElement("div");
         let infoAthletes = document.createElement('p');
-        infoAthletes.style.cssText="font-size: 1.2rem; margin-left: 2rem;font-family: 'Open Sans', sans-serif; line-height:1.4rem; text-decoration: none";
+        infoAthletes.classList.add("info-sport-athletes-2")
         infoAthletes.innerHTML = athleteItem.sport;
 
         divInfoSportPlayer.style.cssText= "display: grid; align-content: center;"
 
         let titleAthletes = document.createElement('h3');
-        titleAthletes.style.cssText="font-size: 1.6rem; margin-left: 2rem;margin-bottom:0px; font-family: 'Oswald', sans-serif; color: #333333"
+        titleAthletes.classList.add("info-name-athletes-2")
         titleAthletes.innerHTML = athleteItem.name+" "+athleteItem.surnames;
 
         let rssDiv= document.createElement("div");
@@ -1289,30 +1652,54 @@ mapAthletesVersion2= (obj)=>{
 
         let socialMediaIcon1 = document.createElement("i");
         let socialMediaLink1 = document.createElement("a");
-        socialMediaLink1.setAttribute("href",athleteItem.social_media.instagram)
-        socialMediaLink1.setAttribute("target","_blank")
-        socialMediaIcon1.setAttribute("class","fa fa-instagram socialmedia-icon-deportistas")
+
+        athleteItem.rrss.map((rrss,i)=>{
+           
+
+            switch (rrss.type) {
+                case "instagram":
+                    let socialMediaIcon1 = document.createElement("i");
+                    let socialMediaLink1 = document.createElement("a");
+                    socialMediaLink1.setAttribute("href",rrss.url)
+                    socialMediaLink1.setAttribute("target","_blank")
+                    socialMediaIcon1.setAttribute("class","fa fa-instagram socialmedia-icon-deportistas")
+                    socialMediaLink1.appendChild(socialMediaIcon1)
+                    rssDiv.appendChild(socialMediaLink1);
+                    break;
+                case "facebook":
+                    let socialMediaIcon2 = document.createElement("i");
+                    let socialMediaLink2 = document.createElement("a");
+                    socialMediaLink2.setAttribute("href",rrss.url)
+                    socialMediaLink2.setAttribute("target","_blank")
+                    socialMediaIcon2.setAttribute("class","fa fa-facebook socialmedia-icon-deportistas");
+                    socialMediaLink2.appendChild(socialMediaIcon2)
+                    rssDiv.appendChild(socialMediaLink2);
+                    break;
+                case "twitter":
+                    let socialMediaIcon3 = document.createElement("i");
+                    let socialMediaLink3 = document.createElement("a");
+                    socialMediaLink3.setAttribute("href",rrss.url)
+                    socialMediaLink3.setAttribute("target","_blank")
+                    socialMediaIcon3.setAttribute("class","fa fa-twitter socialmedia-icon-deportistas");
+                    socialMediaLink3.appendChild(socialMediaIcon3)
+                    rssDiv.appendChild(socialMediaLink3);
+                    break;
+            }
+        })
        
-        let socialMediaIcon2 = document.createElement("i");
-        let socialMediaLink2 = document.createElement("a");
-        socialMediaLink2.setAttribute("href",athleteItem.social_media.facebook)
-        socialMediaLink2.setAttribute("target","_blank")
-        socialMediaIcon2.setAttribute("class","fa fa-facebook socialmedia-icon-deportistas")
+       
         
-        let socialMediaIcon3 = document.createElement("i");
-        let socialMediaLink3 = document.createElement("a");
-       
-        socialMediaLink3.setAttribute("href",athleteItem.social_media.twitter)
-        socialMediaLink3.setAttribute("target","_blank")
-        socialMediaIcon3.setAttribute("class","fa fa-twitter socialmedia-icon-deportistas")
+        
+        
        
 
-        sportPlayer.addEventListener("mouseover", (e)=>{
+        sportPlayer.addEventListener("mouseenter", (e)=>{
     
             let divDetails= document.querySelector("#canvas-details img");
             let nameSurnamesH3= document.querySelector("#overlay-name-surname");
             let overlayContentInfo= document.querySelector("#overlay-content-info");   
             let searchValue= e.target.id;
+            console.log(searchValue);
            
             let athletesFiltered=[];
             if(searchValue.length > 0){
@@ -1322,12 +1709,13 @@ mapAthletesVersion2= (obj)=>{
                         divDetails.src= list.large_photo;
                       
                         divDetails.setAttribute("class","canvas-img-deportistas")
-                        divDetails.style.cssText="filter: blur(5px);"
+                        divDetails.setAttribute("alt","photo "+list.name+" "+list.surnames)
+                        divDetails.style.cssText="filter: blur(30px);"
                         nameSurnamesH3.innerHTML= list.name+" "+list.surnames;
                         overlayContentInfo.innerHTML= list.entry;
                         setTimeout(()=>{
                             divDetails.style.cssText="filter: blur(0px);"
-                        },500);
+                        },700);
                        
                     }
                     else{
@@ -1338,9 +1726,12 @@ mapAthletesVersion2= (obj)=>{
             } else {
                
             }
-        
-        }
-        );
+            setTimeout(()=>{
+                divDetails.style.cssText="filter: blur(0px);"
+            },500);
+        });
+
+      
        
 
         let linkToDeportista = document.createElement("a");
@@ -1353,13 +1744,7 @@ mapAthletesVersion2= (obj)=>{
         divInfoSportPlayer.appendChild(titleAthletes)
         divInfoSportPlayer.appendChild(infoAthletes)
         
-        socialMediaLink1.appendChild(socialMediaIcon1)
-        socialMediaLink2.appendChild(socialMediaIcon2)
-        socialMediaLink3.appendChild(socialMediaIcon3)
-
-        rssDiv.appendChild(socialMediaLink1);
-        rssDiv.appendChild(socialMediaLink2);
-        rssDiv.appendChild(socialMediaLink3);
+      
 
         linkToDeportista.appendChild(divInfoSportPlayer)
 
@@ -1371,6 +1756,16 @@ mapAthletesVersion2= (obj)=>{
 
     })
 }
+let imgDefault= document.querySelector("#canvas-details img")
+let nameSurnamesH3Default= document.querySelector("#overlay-name-surname");
+let overlayContentInfoDefault= document.querySelector("#overlay-content-info");   
+imgDefault.setAttribute("src",athletes.data[0].large_photo)
+imgDefault.setAttribute("alt","photo "+athletes.data[0].name+" "+athletes.data[0].surnames)
+nameSurnamesH3Default.innerHTML= athletes.data[0].name+" "+athletes.data[0].surnames;
+overlayContentInfoDefault.innerHTML= athletes.data[0].entry;
+
+
+
 
 document.querySelector("#buscador_deportistas_2").addEventListener("keyup",(e)=>{
         

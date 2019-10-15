@@ -17,9 +17,12 @@ website:   	http://www.themepunch.com
 }
 .div-deportistas-result-small{
 	display: block;
-	height: 100vh;
+	height: 100%;
 	overflow: auto;
 	scroll-behavior: smooth;
+}
+.div-deportistas-result-small:hover{
+	cursor: pointer;
 }
 .div-deportistas-result-grande{
 	display: block;
@@ -38,6 +41,13 @@ website:   	http://www.themepunch.com
 .buscador_deportistas_banner{
 	height: 90px;
 	display: flex;
+	align-items: center; 
+	justify-content:center; 
+	height: 90px; 
+	padding: 15px; 
+	border: 1px solid #979797; 
+	border-radius: 5px; 
+	margin-bottom: 5px;
 }
 .buscador_deportistas_2{
 	font-family: 'Open Sans', sans-serif, 'FontAwesome' ;
@@ -75,13 +85,33 @@ website:   	http://www.themepunch.com
 	border: 1px solid #979797 !important; 
 	border-radius: 5px;
 	align-content: center;
+	align-items: center;
 	justify-content: space-between;
 	padding: 1.5rem;
-	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
-.div-deportista-detalle:hover{
-	cursor:pointer;
-}
+
+.info-name-athletes-2{
+	font-size: 1.6rem; 
+	margin-left: 2vw;
+	margin-bottom:0px; 
+	font-family: 'Oswald', sans-serif; 
+	color: #333333;
+  }
+  .info-sport-athletes-2{
+	font-size: 1.2rem; 
+	margin-left: 2vw;
+	font-family: 'Open Sans', sans-serif; 
+	line-height:1.4rem; 
+	text-decoration: none;
+  }
+  .img-small-athletes-2{
+	height: 60px; 
+	width: 60px; 
+	border-radius: 50%;
+  }
+
+
 .socialmedia-icon-deportistas{
 	margin-left: 0.5rem; 
 	font-size: 2rem; 
@@ -99,8 +129,7 @@ website:   	http://www.themepunch.com
 	background: #ffffff; 
 	position: absolute; 
 	z-index: 1;
-	filter: blur(0px);
-	transition: .4s filter linear;
+	
 
 }
 
@@ -113,12 +142,13 @@ website:   	http://www.themepunch.com
   }
   .inner-addon .glyphicon {
 	position: absolute;
-	padding: 52px;
 	pointer-events: none;
 	z-index: 5;
+	font-size: 2rem;
   }
   .left-addon .glyphicon {
-	left:-2.5rem;
+	left: 5px;
+	top: 38%
   }
   .left-addon input {
 	padding-left: 30px;
@@ -30250,6 +30280,9 @@ footer Styles / #footer
 }
 
 @media only screen and (max-width: 1099px) {
+	.div-deportistas-result-grande{
+		display: none;
+	}
 	.titleAthletes{
 		width: 100%;
 		margin: 0px;
@@ -31028,6 +31061,48 @@ footer Styles / #footer
 	 
 }
 @media only screen and (max-width: 520px){
+	.buscador_deportistas_banner{
+		height: 45px;
+		display: flex;
+		align-items: center; 
+		justify-content:center; 
+		padding: 15px; 
+		border: 1px solid #979797; 
+		border-radius: 5px; 
+		margin-bottom: 5px;
+		font-size:1.2rem;
+	}
+	.div-deportista-detalle{
+		list-style: none;
+		height: 45px; 
+		display: flex; 
+		border: 1px solid #979797 !important; 
+		border-radius: 5px;
+		align-content: center;
+		align-items: center;
+		justify-content: space-between;
+		padding: 1.5rem;
+		margin-bottom: 0.5rem;
+	}
+	.info-name-athletes-2{
+		font-size: 1rem; 
+		margin-left: 2vw;
+		margin-bottom:0px; 
+		font-family: 'Oswald', sans-serif; 
+		color: #333333;
+	  }
+	  .info-sport-athletes-2{
+		font-size: 0.8rem; 
+		margin-left: 2vw;
+		font-family: 'Open Sans', sans-serif; 
+		line-height:1rem; 
+		text-decoration: none;
+	  }
+	  .img-small-athletes-2{
+		height: 60px; 
+		width: 60px; 
+		border-radius: 50%;
+	  }
 	.titleAthletes{
 		width: 100%;
 		margin: 0px;
@@ -40815,3 +40890,66 @@ h6 {
 	background-color: white !important;
 	transition-delay: 0.2s
 }
+
+
+.input-search-box{
+	width: 100%;
+}
+
+.container-input-search{
+	width: 100%;
+	vertical-align: middle;
+	white-space: nowrap;
+	position: relative;
+	display: flex;
+	align-items: center;
+  }
+  .container-input-search input#buscador_deportistas{
+	width: 300px;
+	height: 50px;
+	background: #ffffff;
+	border: none;
+	font-size: 10pt;
+	float: left;
+	color: #63717f;
+	padding-left: 45px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #979797
+  }
+  .container-input-search .icon{
+	position: absolute;
+	margin-left: 17px;
+	
+	z-index: 1;
+	color: #4f5b66;
+	font-size:1.5rem;
+  }
+  .container-input-search input#buscador_deportistas_2{
+	width: 100%;
+	height: 50px;
+	background: #ffffff;
+	border: none;
+	font-size: 10pt;
+	float: left;
+	color: #63717f;
+	padding-left: 45px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #979797
+  }
+
+
+/**
+* medias custom
+**/
+
+@media only screen and (min-width: 1100) {
+	.div-deportistas-result-grande{
+		display: block;
+	}
+}
+
+
